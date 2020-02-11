@@ -97,23 +97,31 @@ let resumeData = {
       {
         "name":"project1",
         "description":"mobileapp",
-        "imgurl":"https://rocky-bayou-19936.herokuapp.com/"
+        "imgurl":"images/portfolio/coffee.jpg"
       },
       {
         "name":"project2",
         "description":"mobileapp",
-        "imgurl":"../public/images/portfolio/modals/m-coffee.jpg"
-        // "imgurl":"/images/portfolio/project.jpg"
+        "href":"https://rocky-bayou-19936.herokuapp.com/",
+        "imgurl":"images/portfolio/origami.jpg" 
+   
       },
       {
         "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "description":"mobileapp",
+        "href":"https://www.google.com/",  
+        "imgurl":"images/portfolio/farmerboy.jpg"
       },
       {
         "name":"project4",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/portfolio/girl.jpg",
+        "href":"https://www.google.com/"  
+        
+        
+        
+        
+        
       }
     ],
     "testimonials":[
@@ -123,8 +131,9 @@ let resumeData = {
         "role":"Artist / Art Teacher / Program Director for Strategic, Sustainable, Social Arts Endeavors" 
       },
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"Adan worked diligently and tirelessly in a start-up work environment...",
+        "name":"Andre Juilland",
+        "role":"Owner, eXOsports"
       }
     ]
   }
