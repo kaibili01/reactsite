@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 export default class Porfolio extends Component {
+  handleSearch(href) {
+    return function(){
+      window.location.assign(href);
+    }
+  }
+
   render() {
     let resumeData = this.props.resumeData;
     return (
@@ -13,15 +19,15 @@ export default class Porfolio extends Component {
               return(
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                      <a href="#modal-04">
-                      <img src={`${item.imgurl}`} alt="alt" className="item-img"/>
+                      <button onClick={this.handleSearch(item.href)}>
+                      <img  src={`${item.imgurl}`} alt="alt" className="item-img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
                         </div>
                       </div>
-                      </a>
+                      </button>
 
                       
                     </div>

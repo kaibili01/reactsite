@@ -2,7 +2,7 @@ let resumeData = {
     "imagebaseurl":"https://adanimaldesign.org/",
     "name": "Adan",
     "role": "Frontend Web Developer and Graphic Designer",
-    "linkedinId":"Your LinkedIn Id",
+    "linkedinId":"linkedin.com/in/adan-garcia-bugarin-18704825",
     "skypeid": "Your skypeid",
     "roleDescription": " I love making web pages, beautiful sketches, and exiting visual interfaces.",
     "socialLinks":[
@@ -17,14 +17,14 @@ let resumeData = {
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
+          "name":"twitter",
           "url":"https://twitter.com/AdanGBin",
           "className":"fa fa-twitter"
         }
       ],
     "aboutme":"I am currently seeking employment",
-    "address":"Oakland,Ca",
-    "website":"adanimaldesign.org",
+    "address":"adananimaldesign@gmail.com",
+    "website":"Graphic Blog: adanimaldesign.org",
     
     "education":[
       {
@@ -84,6 +84,9 @@ let resumeData = {
         "skillname":"reactjs"
       },
       {
+        "skillname":"bootstrap"
+      },
+      {
         "skillname":"nodejs"
       },
       {
@@ -96,31 +99,56 @@ let resumeData = {
     "portfolio":[
       {
         "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/coffee.jpg"
+        "description":"clicky game",
+        "imgurl":"images/portfolio/clickygame.jpg",
+        "href":"https://rocky-bayou-19936.herokuapp.com/"
       },
       {
         "name":"project2",
-        "description":"mobileapp",
-        "href":"https://rocky-bayou-19936.herokuapp.com/",
-        "imgurl":"images/portfolio/origami.jpg" 
+        "description":"train scheduler",
+        "href":"https://kaibili01.github.io/Train-Scheduler/index.html",
+        "imgurl":"images/portfolio/trainscheduler.jpg" 
    
       },
       {
         "name":"project3",
-        "description":"mobileapp",
-        "href":"https://www.google.com/",  
-        "imgurl":"images/portfolio/farmerboy.jpg"
+        "description":"mobile repair service",
+        "href":"https://kaibili01.github.io/quemador/gui/index.html",  
+        "imgurl":"images/portfolio/quemador.jpg"
       },
       {
         "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/girl.jpg",
-        "href":"https://www.google.com/"  
+        "description":"SF Chronicle Scrapper",
+        "imgurl":"images/portfolio/scrapper.jpg",
+        "href":"https://limitless-stream-97812.herokuapp.com/",  
         
+      },
+      {
+        "name":"project5",
+        "description":"Giftastic",
+        "imgurl":"images/portfolio/giftastic.jpg",
+        "href":"https://kaibili01.github.io/GifTastic/index.html",  
         
+      },
+      {
+        "name":"project6",
+        "description":"Word Guess Game",
+        "imgurl":"images/portfolio/wason.jpg",
+        "href":"https://kaibili01.github.io/NewWordGuessGame/index.html",  
         
+      },
+      {
+        "name":"project7",
+        "description":"Spanish Words Trivia",
+        "imgurl":"images/portfolio/compass.jpg",
+        "href":"https://kaibili01.github.io/TriviaGame/index.html",  
         
+      },
+      {
+        "name":"project8",
+        "description":"FarmShare: Urban Fruit",
+        "imgurl":"images/portfolio/fruit.jpg",
+        "href":"https://sheltered-bayou-70197.herokuapp.com/home",  
         
       }
     ],
@@ -134,6 +162,16 @@ let resumeData = {
         "description":"Adan worked diligently and tirelessly in a start-up work environment...",
         "name":"Andre Juilland",
         "role":"Owner, eXOsports"
+      },
+      {
+        "description":"Adan is an extremely hard worker and a great team player...",
+        "name":"Braedon Merlo",
+        "role":"Team Leader, Strategic Accounts (ThinkHR)"
+      },
+      {
+        "description":"Adanimal was extremely creative and detailed when designing my logo and website...",
+        "name":"Fernando Tarango",
+        "role":"Freelance Musician, Community Moderator for DIY.org"
       }
     ]
   }

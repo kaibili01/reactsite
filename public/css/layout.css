@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(https://i.pinimg.com/originals/00/55/91/005591987fd93d998e6815f65b899c8f.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -59,7 +59,7 @@ header .banner {
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #FFF;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
@@ -73,7 +73,7 @@ header .banner-text h3 {
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: #fff;
+   color: #000;
 }
 header .banner-text hr {
    width: 60%;
@@ -365,6 +365,11 @@ ul#nav li.current a { color: #F06000; }
    -moz-animation: nodejs 2s ease;
    -webkit-animation: nodejs 2s ease;
 }
+.bootstrap {
+   width: 50%;
+   -moz-animation: nodejs 2s ease;
+   -webkit-animation: nodejs 2s ease;
+}
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
@@ -398,6 +403,10 @@ ul#nav li.current a { color: #F06000; }
    0%   { width: 0px;  }
    100% { width: 60%;  }
  }
+ @-moz-keyframes boostrap {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+ }
 
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
@@ -423,6 +432,10 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+@-webkit-keyframes bootstrap {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
