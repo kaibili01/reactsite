@@ -4,7 +4,7 @@ let resumeData = {
     "role": "Frontend Web Developer and Graphic Designer",
     "linkedinId":"linkedin.com/in/adan-garcia-bugarin-18704825",
     "skypeid": "Your skypeid",
-    "roleDescription": " I love making web pages, beautiful sketches, and exiting visual interfaces.",
+    "roleDescription": " I love making web pages, beautiful sketches, and exciting visual interfaces.",
     "socialLinks":[
         {
           "name":"linkedin",
